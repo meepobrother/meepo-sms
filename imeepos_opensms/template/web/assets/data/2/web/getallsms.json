@@ -1,0 +1,188 @@
+[
+    {
+        "id": "1",
+        "title": "\u963f\u91cc\u4e91",
+        "code": "aliyun",
+        "url": "https:\/\/www.aliyun.com\/",
+        "setting": {
+            "access_key_id": "",
+            "access_key_secret": "",
+            "sign_name": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "2",
+        "title": "\u963f\u91cc\u5927\u4e8e",
+        "code": "alidayu",
+        "url": "https:\/\/dayu.aliyun.com\/",
+        "setting": {
+            "app_key": "",
+            "app_secret": "",
+            "sign_name": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "3",
+        "title": "\u4e91\u7247",
+        "code": "yunpian",
+        "url": "https:\/\/www.yunpian.com\/",
+        "setting": {
+            "api_key": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "4",
+        "title": "Submail",
+        "code": "submail",
+        "url": "https:\/\/www.mysubmail.com\/",
+        "setting": {
+            "app_id": "",
+            "app_key": "",
+            "project": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "5",
+        "title": "\u87ba\u4e1d\u5e3d",
+        "code": "luosimao",
+        "url": "https:\/\/luosimao.com\/",
+        "setting": {
+            "api_key": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "6",
+        "title": "\u5bb9\u8054\u4e91\u901a\u8baf",
+        "code": "yuntongxun",
+        "url": "http:\/\/www.yuntongxun.com\/",
+        "setting": {
+            "app_id": "",
+            "account_sid": "",
+            "account_token": "",
+            "is_sub_account": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "7",
+        "title": "\u4e92\u4ebf\u65e0\u7ebf",
+        "code": "huyi",
+        "url": "http:\/\/www.ihuyi.com\/",
+        "setting": {
+            "api_id": "",
+            "api_key": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "8",
+        "title": "\u805a\u5408\u6570\u636e",
+        "code": "juhe",
+        "url": "http:\/\/www.juhe.cn\/",
+        "setting": {
+            "app_key": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "9",
+        "title": "SendCloud",
+        "code": "sendcloud",
+        "url": "https:\/\/www.sendcloud.net\/",
+        "setting": {
+            "sms_user": "",
+            "sms_key": "",
+            "timestamp": false
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "10",
+        "title": "\u767e\u5ea6\u4e91",
+        "code": "baidu",
+        "url": "https:\/\/cloud.baidu.com\/",
+        "setting": {
+            "ak": "",
+            "sk": "",
+            "invoke_id": "",
+            "domain": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "11",
+        "title": "\u534e\u4fe1\u77ed\u4fe1\u5e73\u53f0",
+        "code": "huaxin",
+        "url": "http:\/\/www.ipyy.com\/",
+        "setting": {
+            "user_id": "",
+            "password": "",
+            "account": "",
+            "ip": "",
+            "ext_no": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "12",
+        "title": "253\u4e91\u901a\u8baf\uff08\u521b\u84dd\uff09",
+        "code": "chuanglan",
+        "url": "https:\/\/www.253.com\/",
+        "setting": {
+            "username": "",
+            "password": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "13",
+        "title": "\u878d\u4e91",
+        "code": "rongcloud",
+        "url": "http:\/\/www.rongcloud.cn\/",
+        "setting": {
+            "app_key": "",
+            "app_secret": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "14",
+        "title": "\u5929\u6bc5\u65e0\u7ebf",
+        "code": "tianyiwuxian",
+        "url": "http:\/\/www.85hu.com\/",
+        "setting": {
+            "username": "",
+            "password": "",
+            "gwid": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "15",
+        "title": "twilio",
+        "code": "twilio",
+        "url": "https:\/\/www.twilio.com\/",
+        "setting": {
+            "account_sid": "",
+            "from": "",
+            "token": ""
+        },
+        "uniacid": "2"
+    },
+    {
+        "id": "16",
+        "title": "\u817e\u8baf\u4e91SMS",
+        "code": "qcloud",
+        "url": "https:\/\/cloud.tencent.com\/product\/sms",
+        "setting": {
+            "sdk_app_id": "",
+            "app_key": ""
+        },
+        "uniacid": "2"
+    }
+]

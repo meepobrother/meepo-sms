@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	<application setting="false">
+		<name><![CDATA[米波消息提醒]]></name>
+		<identifie><![CDATA[imeepos_opensms]]></identifie>
+		<version><![CDATA[5.0]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[米波消息提醒]]></ability>
+		<description><![CDATA[米波消息提醒]]></description>
+		<author><![CDATA[imeepos]]></author>
+		<url><![CDATA[http://bbs.we7.cc/]]></url>
+	</application>
+	<platform>
+		<subscribes>
+			<message type="text" />
+		</subscribes>
+		<handles>
+			<message type="text" />
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+		<supports>
+		</supports>
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="发送接口" do="index" state="" direct="1" />
+		</cover>
+		<menu>
+			<entry title="基础设置" do="setting" state="" direct="" />
+			<entry title="发送记录" do="log" state="" direct="" />
+		</menu>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[install.php]]></install>
+	<uninstall><![CDATA[uninstall.php]]></uninstall>
+	<upgrade><![CDATA[upgrade.php]]></upgrade>
+</manifest>

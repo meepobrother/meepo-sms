@@ -1,0 +1,17 @@
+<nz-tabset [nzTabPosition]="props.position" [nzType]="'line'">
+    <nz-tab *ngFor="let tab of props.items">
+        <ng-template #nzTabHeading>
+            {{tab.title}}
+        </ng-template>
+        <div nz-form [formGroup]="form.get(tab.code)">
+            <div nz-form-item nz-row *ngEach="let data of tab.setting;key as i;">
+                <div nz-form-label nz-col [nzSm]="6" [nzXs]="24">
+                    <label [attr.for]="'form-row-'+i" nz-form-item-required>{{i}}</label>
+                </div>
+                <div nz-form-control nz-col [nzSm]="14" [nzXs]="24" nzHasFeedback>
+                    <nz-input [nzSize]="'large'" [formControlName]="i" [nzId]="'form-row-'+i"></nz-input>
+                </div>
+            </div>
+        </div>
+    </nz-tab>
+</nz-tabset>

@@ -1,0 +1,3 @@
+[submodule "src/app/modules"]
+	path = src/app/modules
+	url = https://github.com/meepobrother/meepo-sms.git
