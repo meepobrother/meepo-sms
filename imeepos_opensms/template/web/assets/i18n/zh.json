@@ -1,0 +1,23 @@
+{
+    "hello": "你好",
+    "enable": "启用",
+    "sign_name": "签名",
+    "app_secret": "API密钥",
+    "access_key_secret": "API密钥",
+    "app_key": "API KEY",
+    "access_key_id": "API KEY",
+    "api_key": "API KEY",
+    "app_id": "APP ID",
+    "api_id": "API ID",
+    "timestamp": "时间戳",
+    "domain": "域名",
+    "password": "密码",
+    "user_id": "用户ID",
+    "account": "账户",
+    "ip": "IP地址",
+    "username": "用户名",
+    "sdk_app_id": "APP ID",
+    "nickname": "昵称",
+    "content": "内容",
+    "avatar": "头像"
+}

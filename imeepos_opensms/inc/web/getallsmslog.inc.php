@@ -11,5 +11,4 @@ if ($this->isDev) {
     mkdirs(dirname($file));
     file_put_contents($file, $json);
 }
-var_dump($file);
 die($json);
