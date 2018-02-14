@@ -5159,9 +5159,9 @@ ng-clipboard-antd@^2.0.1:
     rxjs "^5.5.2"
     zone.js "^0.8.14"
 
-ng-react-component@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/ng-react-component/-/ng-react-component-2.0.8.tgz#c9a2fce967900e8f0df5daf81aa231d893878f43"
+ng-react-component@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/ng-react-component/-/ng-react-component-2.0.9.tgz#a9dae35d67e33448a4003c4e9583a93254a096de"
 
 ng-tree-antd@^2.2.2:
   version "2.2.2"

@@ -45,20 +45,13 @@ export class SettingComponent extends ReactComponentSetting<SmsSettingProps, any
             this.form.valueChanges.subscribe((change) => {
                 this.saveSetting(change);
             });
-            console.log(this.form);
         });
-    }
-
-    getFormType(group: FormGroup, name: string) {
-        let control: FormControl = group.get(name) as FormControl;
-        let type: string = typeof control.value;
-        return type;
     }
 
     saveSetting(data: any) {
         const url = this.createWebUrl('saveallsms', {}, true);
         this.http.post(url, data).subscribe(res => {
-            console.log(res);
+            // console.log(res);
         });
     }
 
