@@ -6,10 +6,11 @@
         <div nz-form [formGroup]="form.get(tab.code)">
             <div nz-form-item nz-row *ngEach="let data of tab.setting;key as i;">
                 <div nz-form-label nz-col [nzSm]="6" [nzXs]="24">
-                    <label [attr.for]="'form-row-'+i" nz-form-item-required>{{i}}</label>
+                    <label [attr.for]="'form-row-'+i" nz-form-item-required>{{i | translate}}</label>
                 </div>
                 <div nz-form-control nz-col [nzSm]="14" [nzXs]="24" nzHasFeedback>
-                    <nz-input [nzSize]="'large'" [formControlName]="i" [nzId]="'form-row-'+i"></nz-input>
+                    <nz-input *ngIf="getFormType(form.get(tab.code),i) == 'string'" [nzSize]="'large'" [formControlName]="i" [nzId]="'form-row-'+i"></nz-input>
+                    <nz-switch *ngIf="getFormType(form.get(tab.code),i) == 'boolean'" [formControlName]="i"></nz-switch>
                 </div>
             </div>
         </div>

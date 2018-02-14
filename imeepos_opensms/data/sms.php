@@ -9,6 +9,7 @@ $data[] = array(
         'access_key_id' => '',
         'access_key_secret' => '',
         'sign_name' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -20,6 +21,7 @@ $data[] = array(
         'app_key' => '',
         'app_secret' => '',
         'sign_name' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -30,6 +32,7 @@ $data[] = array(
     'url' => 'https://www.yunpian.com/',
     'setting' => array(
         'api_key' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -42,6 +45,7 @@ $data[] = array(
         'app_id' => '',
         'app_key' => '',
         'project' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -52,6 +56,7 @@ $data[] = array(
     'url' => 'https://luosimao.com/',
     'setting' => array(
         'api_key' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -65,6 +70,7 @@ $data[] = array(
         'account_sid' => '',
         'account_token' => '',
         'is_sub_account' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -76,6 +82,7 @@ $data[] = array(
     'setting' => array(
         'api_id' => '',
         'api_key' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -86,6 +93,7 @@ $data[] = array(
     'url' => 'http://www.juhe.cn/',
     'setting' => array(
         'app_key' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -98,6 +106,7 @@ $data[] = array(
         'sms_user' => '',
         'sms_key' => '',
         'timestamp' => false,
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -111,6 +120,7 @@ $data[] = array(
         'sk' => '',
         'invoke_id' => '',
         'domain' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -125,6 +135,7 @@ $data[] = array(
         'account' => '',
         'ip' => '',
         'ext_no' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -136,6 +147,7 @@ $data[] = array(
     'setting' => array(
         'username' => '',
         'password' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -147,6 +159,7 @@ $data[] = array(
     'setting' => array(
         'app_key' => '',
         'app_secret' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -159,6 +172,7 @@ $data[] = array(
         'username' => '',
         'password' => '',
         'gwid' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -171,6 +185,7 @@ $data[] = array(
         'account_sid' => '',
         'from' => '',
         'token' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );
@@ -182,6 +197,7 @@ $data[] = array(
     'setting' => array(
         'sdk_app_id' => '',
         'app_key' => '',
+        'enable' => false,
     ),
     'uniacid' => $_W['uniacid'],
 );

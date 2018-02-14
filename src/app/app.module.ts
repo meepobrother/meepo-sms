@@ -2,15 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { We7RouterModule, WE7_ROUTES } from 'meepo-we7-router';
-import { WelcomeComponent } from './welcome/welcome';
 import { AppHeaderComponent } from './welcome/header/header';
 import { AppSidebarComponent } from './welcome/sidebar/sidebar';
 import {
   DesignLibraryProp, DesignLibraryService,
   IDesignComponentModule, DESIGN_COMPONENTS
 } from 'meepo-idesign-share';
-import { both, entrys as smsEntrys, preview } from './meepo-sms/public_api';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { LogComponent } from './log/log';
 import { SettingComponent } from './setting/setting';
 import {
@@ -19,13 +17,16 @@ import {
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { NgEachOf } from './ng-each-of';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+export function createTranslateHttpLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent,
     AppHeaderComponent,
     AppSidebarComponent,
-    ...smsEntrys,
     SettingComponent,
     LogComponent,
     NgEachOf
@@ -44,11 +45,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NgZorroAntdModule.forRoot(),
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateHttpLoader),
+        deps: [HttpClient]
+      }
+    })
   ],
   entryComponents: [
-    WelcomeComponent,
-    ...smsEntrys,
     SettingComponent,
     LogComponent
   ],
@@ -58,4 +64,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   }],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() { }
+}

@@ -2,7 +2,7 @@ import { Component, OnInit, KeyValueDiffers, ElementRef, Renderer2, isDevMode } 
 import { ReactComponentSetting } from 'ng-react-component';
 import { We7RouterService } from 'meepo-we7-router';
 import { HttpClient } from '@angular/common/http';
-import { FormBuilder } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { DesignPropsService } from 'meepo-idesign-share';
 
 export interface SmsSettingProps {
@@ -45,7 +45,14 @@ export class SettingComponent extends ReactComponentSetting<SmsSettingProps, any
             this.form.valueChanges.subscribe((change) => {
                 this.saveSetting(change);
             });
+            console.log(this.form);
         });
+    }
+
+    getFormType(group: FormGroup, name: string) {
+        let control: FormControl = group.get(name) as FormControl;
+        let type: string = typeof control.value;
+        return type;
     }
 
     saveSetting(data: any) {
